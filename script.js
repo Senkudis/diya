@@ -1,3 +1,4 @@
+const myimg = document.querySelector(".immgg")
 const wrapper =
 document.querySelector('.wrapper');
 const question =
@@ -12,8 +13,10 @@ wrapper.getBoundingClientRect();
 const noBtnRect =
 noBtn.getBoundingClientRect();
 
+
 yesBtn.addEventListener('click', () => {
     question.innerHTML = 'Ahhhh, I love You Too >.<';
+    myimg.src = "dd.webp"
 });
 
 noBtn.addEventListener('mouseover', () => {
